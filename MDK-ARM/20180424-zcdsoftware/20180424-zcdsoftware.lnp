@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"20180424-zcdsoftware\startup_stm32f407xx.o"
+"20180424-zcdsoftware\stm32f4xx_hal_pwr_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_rcc_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_rcc.o"
+"20180424-zcdsoftware\stm32f4xx_hal.o"
+"20180424-zcdsoftware\stm32f4xx_hal_dma_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_adc_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_cortex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_adc.o"
+"20180424-zcdsoftware\stm32f4xx_hal_dma.o"
+"20180424-zcdsoftware\stm32f4xx_hal_tim_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_flash_ex.o"
+"20180424-zcdsoftware\stm32f4xx_hal_tim.o"
+"20180424-zcdsoftware\stm32f4xx_hal_flash.o"
+"20180424-zcdsoftware\stm32f4xx_hal_pwr.o"
+"20180424-zcdsoftware\stm32f4xx_hal_flash_ramfunc.o"
+"20180424-zcdsoftware\stm32f4xx_hal_gpio.o"
+"20180424-zcdsoftware\system_stm32f4xx.o"
+"20180424-zcdsoftware\stm32f4xx_it.o"
+"20180424-zcdsoftware\main.o"
+"20180424-zcdsoftware\stm32f4xx_hal_msp.o"
+--library_type=microlib --strict --scatter "20180424-zcdsoftware\20180424-zcdsoftware.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "20180424-zcdsoftware.map" -o 20180424-zcdsoftware\20180424-zcdsoftware.axf
